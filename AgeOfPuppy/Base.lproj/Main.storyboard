@@ -70,6 +70,19 @@
                                     <rect key="frame" x="190" y="255" width="194" height="35"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVJ-18-toR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="calculate accuratly">
+                                    <color key="titleColor" red="0.99215686274509807" green="0.56862745098039214" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="117" y="165" width="129" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="calculateAccuratlyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PQ8-fF-9V4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -79,6 +92,7 @@
                                 <exclude reference="0F6-1b-wtC"/>
                                 <exclude reference="y04-Jh-M9W"/>
                                 <exclude reference="547-lW-2gK"/>
+                                <exclude reference="hVJ-18-toR"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -88,6 +102,7 @@
                                 <include reference="0F6-1b-wtC"/>
                                 <include reference="y04-Jh-M9W"/>
                                 <include reference="547-lW-2gK"/>
+                                <include reference="hVJ-18-toR"/>
                             </mask>
                         </variation>
                     </view>

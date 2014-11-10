@@ -38,5 +38,21 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func calculateAccuratlyButtonPressed(sender: AnyObject) {
+        var ageAsFloat = Double((humanAgeTextField.text as NSString).doubleValue)
+        var ageOfDog:Double
+        if ageAsFloat < 2.0{
+            ageOfDog = ageAsFloat * 10.5
+        }
+        else{
+            ageOfDog = (10.5*2)+(4*(ageAsFloat-2))
+        }
+        
+        puppyAgeTextField.text = "\(ageOfDog) years old"
+        titleTextField.hidden = false
+        puppyAgeTextField.hidden = false
+        humanAgeTextField.resignFirstResponder()
+        
+    }
 }
 

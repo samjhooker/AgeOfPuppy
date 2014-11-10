@@ -32,6 +32,8 @@ class ViewController: UIViewController {
         titleTextField.hidden = false
         puppyAgeTextField.text = "\(ageAsFloat*7) years old"
         puppyAgeTextField.hidden = false
+        //change it a bit
+        humanAgeTextField.resignFirstResponder()
         
         
     }

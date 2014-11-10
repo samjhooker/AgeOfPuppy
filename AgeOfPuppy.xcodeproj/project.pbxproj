@@ -13,6 +13,7 @@
 		7E9B35641A1064CC0032F92D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9B35631A1064CC0032F92D /* Images.xcassets */; };
 		7E9B35671A1064CC0032F92D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E9B35651A1064CC0032F92D /* LaunchScreen.xib */; };
 		7E9B35731A1064CC0032F92D /* AgeOfPuppyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B35721A1064CC0032F92D /* AgeOfPuppyTests.swift */; };
+		7E9B357D1A10652C0032F92D /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E9B357C1A10652C0032F92D /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7E9B356C1A1064CC0032F92D /* AgeOfPuppyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfPuppyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9B35711A1064CC0032F92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E9B35721A1064CC0032F92D /* AgeOfPuppyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfPuppyTests.swift; sourceTree = "<group>"; };
+		7E9B357C1A10652C0032F92D /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		7E9B355A1A1064CC0032F92D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E9B357C1A10652C0032F92D /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg */,
 				7E9B355B1A1064CC0032F92D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9B357D1A10652C0032F92D /* 2-puppy-training-group-classes-house-training-toliet-training-kent-sheppey-maidstone-medway-puppy-foundation.jpg in Resources */,
 				7E9B35621A1064CC0032F92D /* Main.storyboard in Resources */,
 				7E9B35671A1064CC0032F92D /* LaunchScreen.xib in Resources */,
 				7E9B35641A1064CC0032F92D /* Images.xcassets in Resources */,
